@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#dashboard {
+  display: grid;
+  grid-template-columns: repeat(50, 10px);
+  grid-auto-rows: 10px;
+  gap: 5px;
+  grid-auto-flow: dense;
+  margin: 5em;
+}
